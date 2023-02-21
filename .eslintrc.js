@@ -32,4 +32,11 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
   },
+
+    "extends": [
+      "some-other-config-you-use",
+      "prettier"
+    ],
+    "parser": "@babel/eslint-parser",
+
 };
